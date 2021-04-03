@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "通过令牌模式防范csrf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-mock-csrf": "node mockCsrf.js"
+  },
+  "keywords": [],
+  "author": "ishanyang",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "csrf": "^3.1.0",
+    "csurf": "^1.11.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

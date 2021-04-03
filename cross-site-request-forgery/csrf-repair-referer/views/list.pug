@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  a(href="/post") 新增文章
+  each article in list
+    h1 #{article.title}

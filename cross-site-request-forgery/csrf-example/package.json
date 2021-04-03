@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "模拟实现csrf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-mock-csrf": "node mockCsrf.js"
+  },
+  "keywords": [],
+  "author": "ishanyang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

